@@ -29,19 +29,19 @@ RegisterNumber: 212224040101
 ## Sourcecode.java:
 
 ```
-class Student
-{
-    String name;
-    String address;
-}
-public class Main
+import java.util.Scanner;
+public class Demo
 {
     public static void main(String[] args)
-   {
-        Student obj= new Student();        
-        obj.name="John";
-        obj.address="Chennai";
-        System.out.println(obj.name+" "+obj.address);
+    {
+       Scanner sc = new Scanner(System.in);
+       int num = sc.nextInt();
+        if(num == 0) {
+           System.out.println("Given number is Zero");
+        }
+        else {
+        	 System.out.println(num+ " is Non-Zero");
+        }
     }
 }
 ```
@@ -53,7 +53,8 @@ public class Main
 
 
 ## OUTPUT:
-<img width="495" height="206" alt="image" src="https://github.com/user-attachments/assets/d0917de2-f2b8-4d3a-9147-4c496a218593" />
+<img width="600" height="246" alt="image" src="https://github.com/user-attachments/assets/82119012-5a43-41b0-bb10-4589c8979471" />
+
 
 
 ## RESULT:
