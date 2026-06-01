@@ -21,12 +21,30 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariharan S
+RegisterNumber: 212224040101
 */
 ```
 
 ## Sourcecode.java:
+
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 
 
@@ -35,7 +53,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
+<img width="495" height="206" alt="image" src="https://github.com/user-attachments/assets/d0917de2-f2b8-4d3a-9147-4c496a218593" />
 
 
 ## RESULT:
